@@ -1,3 +1,4 @@
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -58,7 +59,10 @@ body {
   color: rgb(var(--foreground-rgb));
   background: #f0f0fa;
   display: flex;
-  /*justify-content: center;*/
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 0;
 }
 
 body::-webkit-scrollbar {
