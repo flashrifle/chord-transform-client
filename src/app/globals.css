@@ -57,7 +57,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #f0f0fa;
+  background: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
